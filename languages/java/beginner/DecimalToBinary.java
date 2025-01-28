@@ -77,6 +77,8 @@ public class DecimalToBinary {
         System.out.println("Decimal to Binary using Math.pow \n" + deicmalToBinaryUsingMathPow(num));
         
         System.out.println("Decimal to Binary using another method \n" + decimalToBinaryFourthFunction(num));
+
+        scanner.close();
     }
 
 

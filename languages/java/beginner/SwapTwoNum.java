@@ -1,6 +1,5 @@
 package practice_projects.languages.java.beginner;
 
-import java.util.*;
 import java.util.Scanner;
 
 public class SwapTwoNum {
@@ -71,6 +70,8 @@ public class SwapTwoNum {
             swapWithArithmetic(num3, num4);
             System.out.println("Numbers after swapping.");
             System.out.println("Num3 " + num3 + " Num4 " + num4);
+
+            scanner.close();
     }
     
 }

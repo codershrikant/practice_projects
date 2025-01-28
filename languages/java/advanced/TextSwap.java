@@ -80,7 +80,7 @@ public class TextSwap extends JFrame implements ActionListener {
 
     private JButton createStyledButton(String text) {
         JButton button = new JButton(text);
-        button.setFont(new Font("Arial", Font.BOLD, size:14));
+        button.setFont(new Font("Arial", Font.BOLD, 14));
         button.setBackground(new Color(76, 175, 80));
         button.setForeground(Color.WHITE);
         button.setFocusPainted(false);

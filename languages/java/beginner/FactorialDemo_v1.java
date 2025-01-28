@@ -21,7 +21,7 @@ public class FactorialDemo_v1 {
     }
 
     static int factorialTernary(int num) {
-        return (num == 1 || num == 0) ? 1 : num *factorialTernary(num - 1);
+        return (num == 1 || num == 0) ? 1 : num * factorialTernary(num - 1);
     }
     public static void main (String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -29,6 +29,7 @@ public class FactorialDemo_v1 {
         int num = scanner.nextInt();
         System.out.println("Factorial of " + num + " is " + factorial(num));
         System.out.println("Factorial of " + num + " is " + factorialRecursive(num));
-        System.out.println("Factorial of " + num + " is " + factorialTernary(num));        
+        System.out.println("Factorial of " + num + " is " + factorialTernary(num));
+        scanner.close();        
     }
 }
